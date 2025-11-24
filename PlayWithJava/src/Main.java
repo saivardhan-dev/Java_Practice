@@ -17,11 +17,11 @@ class MyThread2 implements Runnable{
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         Thread t1= new MyThread();
-        t1.start();
-        t1.join();
 
         Runnable r= new MyThread2();
         Thread t2=new Thread(r);
         t2.start();
+        t1.start();
+        t2.join();
     }
 }

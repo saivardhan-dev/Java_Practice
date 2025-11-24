@@ -73,11 +73,11 @@ public class Main{
         FileQueue queue = new FileQueue(capacity);
 
         Thread producer = new Thread(new Producer(queue, totalFiles),"Producer");
-        Thread comsumer = new Thread(new Comsumer(queue, totalFiles),"Comsumer");
+        Thread consumer = new Thread(new Comsumer(queue, totalFiles),"Consumer");
 
         producer.start();
-        comsumer.start();
+        consumer.start();
         producer.join();
-        comsumer.join();
+        consumer.join();
     }
 }
