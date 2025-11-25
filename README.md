@@ -7,7 +7,6 @@ During this period, I focused heavily on understanding Core Java, Object-Oriente
 * Variables, data types
 * Scanner-based input handling
 * Conditionals & loops
-* Methods & static vs instance behavior
 * Arrays and ArrayLists
 * String manipulation
 
@@ -25,9 +24,9 @@ During this period, I focused heavily on understanding Core Java, Object-Oriente
 * LinkedList
 
 **4. Multithreading**
- Implemented threads using:
+ **Implemented threads using:**
 * extends Thread
-*	implements Runnable
+* implements Runnable
   
 	**Understood thread lifecycle Used:**
 *	start()
