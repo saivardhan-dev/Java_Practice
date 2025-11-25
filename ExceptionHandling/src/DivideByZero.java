@@ -1,3 +1,5 @@
+//Accept two numbers and handle division by zero
+
 public class DivideByZero {
     public static void main(String[] args){
         try{

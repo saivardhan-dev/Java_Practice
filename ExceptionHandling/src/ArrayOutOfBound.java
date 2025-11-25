@@ -1,3 +1,5 @@
+//Access an invalid index and handle the exception.
+
 import java.util.Arrays;
 
 public class ArrayOutOfBound {

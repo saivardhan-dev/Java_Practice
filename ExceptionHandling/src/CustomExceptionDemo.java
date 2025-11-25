@@ -1,3 +1,5 @@
+//Throw and catch a custom exception if age < 18.
+
 class InvalidEAgexception extends Exception {
     public InvalidEAgexception(String message) {
         super(message);
