@@ -2,13 +2,12 @@
 
 public class DivideByZero {
     public static void main(String[] args){
-        try{
-            int a=10;
-            int b=0;
-            int c=a/b;
-            System.out.println("c=" + c);
-        }catch(ArithmeticException e){
-            System.out.println("Error: " + e);
+        System.out.println("Divide by zero");
+        try {
+            System.out.println(10 / 0);
+        }catch (ArithmeticException e){
+            System.out.println("Arithmetic Exception");
         }
+        System.out.println("QUE PASO");
     }
 }
