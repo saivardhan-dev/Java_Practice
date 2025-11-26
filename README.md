@@ -23,7 +23,16 @@ During this period, I focused heavily on understanding Core Java, Object-Oriente
 * ArrayList
 * LinkedList
 
-**4. Multithreading**
+**4. Exception Handling**
+
+Exceptions are unexpected events that disrupt normal program flow. Exception handling provides an alternate way to continue program execution gracefully.
+* Purpose of Exception Handling
+* Run-Time Stack (How Java Executes Code)
+* Default Exception Handling
+* Exception Hierarchy
+* Checked vs Unchecked Exceptions
+
+**5. Multithreading**
  **Implemented threads using:**
 * extends Thread
 * implements Runnable
@@ -39,14 +48,6 @@ During this period, I focused heavily on understanding Core Java, Object-Oriente
 *	notifyAll()
 *	synchronized blocks
 
-**5. Exception Handling**
-
-Exceptions are unexpected events that disrupt normal program flow. Exception handling provides an alternate way to continue program execution gracefully.
-* Purpose of Exception Handling
-* Run-Time Stack (How Java Executes Code)
-* Default Exception Handling
-* Exception Hierarchy
-* Checked vs Unchecked Exceptions
 
 **6. Data Structures & Algorithms**
 
