@@ -27,4 +27,22 @@ try{
 - <img width="1440" height="691" alt="image" src="https://github.com/user-attachments/assets/cb1dd574-3632-4418-858a-47fb1468d39b" />
 
 ## Cheched and Unchecked Exception:
-**Checked Exception:** 
+- **Checked Exception:** The exceptions which are checked by compiler at compile time for smooth execution of the program at runtime whether programmer handling or not (using try-catch blocks) or declare them in the method signature (using the throws keyword)
+
+- Example: IOException (e.g., file not found), SQLException (e.g., database connection issues), and ClassNotFoundException
+```text
+class Test{
+├── public static void main(String[] args) throws InterruptedException{
+├──├──System.out.println("Hola, Como Estos");
+├──├──Thread.sleep(100); //if we use sleep (, wait, join....) methods, main method goes into sleep mode and there may be a chance we will get a "unreported exception: InterruptedException; must be caught or declared to be thrown", so we have to use throw or try-catch to handle exception. 
+├──}
+}
+```
+
+- **UnChecked Exception:** These exceptions occur at runtime and are not checked by the compiler. You are not required to handle them or declare them in the method signature, although you can choose to do so. 
+
+- Example: NullPointerException, ArrayIndexOutOfBoundsException, and ArithmeticException (e.g., division by zero)
+
+- Runtime exceptions and its subclasses and,  errors and its subclasses are unchecked Exceptions, and all other types of exceptions are checked Exceptions.
+
+
