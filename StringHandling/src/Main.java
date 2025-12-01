@@ -41,34 +41,34 @@ public class Main {
         System.out.println("Number of Words in the string: " + words.length);
 
 
-        char[] ch = input.toCharArray();
-        boolean[] b = new boolean[n];
-
-        System.out.println("Character Occurrences:");
-        for (int i = 0; i < ch.length; i++) {
-            if (b[i]) continue;
-            int charCount=1;
-            for(int j = i + 1; j < ch.length; j++) {
-                if (ch[i] == ch[j]) {
-                    charCount++;
-                    b[j] = true;
-                }
-
-            }
-            System.out.println(ch[i] + " : " + charCount);
-        }
-
-//        Map<Character, Integer> map = new HashMap<>();
-//        for(char c : input.toCharArray()) {
-//            if(map.containsKey(c)){
-//                map.put(c, map.get(c)+1);
-//            }else{
-//                map.put(c, 1);
-//            }
-//        }
+//        char[] ch = input.toCharArray();
+//        boolean[] b = new boolean[n];
+//
 //        System.out.println("Character Occurrences:");
-//        for(Map.Entry<Character, Integer> entry : map.entrySet()){
-//            System.out.println(entry.getKey() + " : " + entry.getValue());
+//        for (int i = 0; i < ch.length; i++) {
+//            if (b[i]) continue;
+//            int charCount=1;
+//            for(int j = i + 1; j < ch.length; j++) {
+//                if (ch[i] == ch[j]) {
+//                    charCount++;
+//                    b[j] = true;
+//                }
+//
+//            }
+//            System.out.println(ch[i] + " : " + charCount);
 //        }
+
+        Map<Character, Integer> map = new HashMap<>();
+        for(char c : input.toCharArray()) {
+            if(map.containsKey(c)){
+                map.put(c, map.get(c)+1);
+            }else{
+                map.put(c, 1);
+            }
+        }
+        System.out.println("Character Occurrences:");
+        for(Map.Entry<Character, Integer> entry : map.entrySet()){
+            System.out.println(entry.getKey() + " : " + entry.getValue());
+        }
     }
 }
