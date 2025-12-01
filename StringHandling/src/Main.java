@@ -46,8 +46,8 @@ public class Main {
 
         System.out.println("Character Occurrences:");
         for (int i = 0; i < ch.length; i++) {
-          if (b[i]) continue;
-          int charCount=1;
+            if (b[i]) continue;
+            int charCount=1;
             for(int j = i + 1; j < ch.length; j++) {
                 if (ch[i] == ch[j]) {
                     charCount++;

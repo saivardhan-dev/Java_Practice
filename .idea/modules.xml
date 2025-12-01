@@ -9,7 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/LibrarySystem/LibrarySystem.iml" filepath="$PROJECT_DIR$/LibrarySystem/LibrarySystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/NumberGuessingGame/NumberGuessingGame.iml" filepath="$PROJECT_DIR$/NumberGuessingGame/NumberGuessingGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/PlayWithJava/PlayWithJava.iml" filepath="$PROJECT_DIR$/PlayWithJava/PlayWithJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servlets_and_JSP/Servlets_and_JSP.iml" filepath="$PROJECT_DIR$/Servlets_and_JSP/Servlets_and_JSP.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleCalculator/SimpleCalculator.iml" filepath="$PROJECT_DIR$/SimpleCalculator/SimpleCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringHandling/StringHandling.iml" filepath="$PROJECT_DIR$/StringHandling/StringHandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudentMarksAnalyzer/StudentMarksAnalyzer.iml" filepath="$PROJECT_DIR$/StudentMarksAnalyzer/StudentMarksAnalyzer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Threads/Threads.iml" filepath="$PROJECT_DIR$/Threads/Threads.iml" />
       <module fileurl="file://$PROJECT_DIR$/ToDoList/ToDoList.iml" filepath="$PROJECT_DIR$/ToDoList/ToDoList.iml" />
