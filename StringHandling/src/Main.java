@@ -40,7 +40,6 @@ public class Main {
 
 
 //        char[] ch = input.toCharArray();
-//
 //        System.out.println("Character Occurrences:");
 //        for (int i = 0; i < ch.length; i++) {
 //            int charCount=1;
