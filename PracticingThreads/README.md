@@ -38,7 +38,7 @@ class Main{
 		 
 		 Real Life Analogy:
             run(): Person goes inside and uses bathroom
-            sleep(x): Person inside bathroom takes a nap — still inside, lock remains
+            sleep(mil.sec): Person inside bathroom takes a nap — still inside, lock remains
             wait(): Person steps out and leaves the key for others, waits outside to be notified
             notify(): Someone inside opens door and calls one waiting person
             notifyAll(): Someone opens door and calls everyone waiting
