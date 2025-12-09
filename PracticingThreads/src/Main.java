@@ -67,7 +67,7 @@ class Outgoing implements Runnable{
     }
 }
 
-class Main{
+class Terminal{
     public static void main(String[] args) throws InterruptedException{
         int capacity=3;
         int totalPlanes=10;

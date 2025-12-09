@@ -26,8 +26,8 @@ class t2 implements Runnable{
     @Override
     public void run(){
         try {
-        for(int i=0;i<5;i++) {
-            pe.printFromT2();
+            for(int i=0;i<5;i++) {
+                pe.printFromT2();
             }
         }catch (Exception e){}
     }
