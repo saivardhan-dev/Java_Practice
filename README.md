@@ -47,9 +47,14 @@ Exceptions are unexpected events that disrupt normal program flow. Exception han
 *	wait()
 *	notifyAll()
 *	synchronized blocks
+  
+
+**6. JDBC Connection**
+* JDBC allows Java programs to connect to databases using a driver, execute SQL queries, process results, and safely close resources.
+* Step by step JDBC flow
 
 
-**6. Data Structures & Algorithms**
+**7. Data Structures & Algorithms**
 
 Implemented sorting algorithms: Learned how each algorithm works internally, their time complexities.
 *	Bubble Sort
