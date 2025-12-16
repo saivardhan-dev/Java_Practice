@@ -39,7 +39,7 @@ class Incoming implements Runnable{
     public void run() {
         try {
             for (int i = 1; i <= totalPlanes; i++) {
-                String name = "plane= " + i;
+                String name = "Flight-" + i;
                 runway.landing(name);
                 Thread.sleep(100);
             }
@@ -74,12 +74,14 @@ class Terminal{
 
         Runway aircraftStand = new Runway(capacity);
 
-        Thread outgoing = new Thread(new Incoming(aircraftStand, totalPlanes),"Outgoing");
         Thread incoming = new Thread(new Outgoing(aircraftStand, totalPlanes),"Incoming");
+        Thread outgoing = new Thread(new Incoming(aircraftStand, totalPlanes),"Outgoing");
+
 
         outgoing.start();
         incoming.start();
         outgoing.join();
         incoming.join();
+        System.out.println("All planes processed. Simulation complete.");
     }
 }

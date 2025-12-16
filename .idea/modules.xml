@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Banking/Banking.iml" filepath="$PROJECT_DIR$/Banking/Banking.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/DSA.iml" filepath="$PROJECT_DIR$/DSA/DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" filepath="$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC/JDBC.iml" filepath="$PROJECT_DIR$/JDBC/JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_Practice.iml" filepath="$PROJECT_DIR$/.idea/Java_Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/LibrarySystem/LibrarySystem.iml" filepath="$PROJECT_DIR$/LibrarySystem/LibrarySystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/NumberGuessingGame/NumberGuessingGame.iml" filepath="$PROJECT_DIR$/NumberGuessingGame/NumberGuessingGame.iml" />
